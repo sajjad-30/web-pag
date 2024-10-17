@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <title> TO-DO LIST</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #2b1460;
+        }
+
+        .child {
+            height: 500px;
+            width: 500px;
+            background: #fff;
+            border-radius: 20px;
+            padding: 30px;
+
+        }
+
+        .title {
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .input {
+            display: flex;
+            align-items: center;
+            background: #edeef0;
+            border-radius: 30px;
+            padding-left: 20px;
+            margin-bottom: 25px;
+        }
+
+        .text {
+            flex: 1;
+            border: none;
+            outline: none;
+            background: transparent;
+            padding: 10px;
+            font-weight: 14px;
+
+        }
+
+        .add {
+            border: none;
+            outline: none;
+            padding: 16px 50px;
+            background: #ff5945;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 40px;
+        }
+        .point{
+            font-size: 25px;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="child">
+            <div class="title">To-Do List</div>
+            <div class="input"><input type="text" placeholder="Add Your Task" class="text"> <button class="add">
+                    ADD</button></div>
+            <div class="point">
+                <input type="radio" >learn javascript projects<br>
+                <input type="radio"> make a to do list opp<br>
+                <input type="radio"> link it to Your resume <br>
+                <input type="radio"> get a software job<br>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
